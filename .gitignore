@@ -15,3 +15,9 @@ $RECYCLE.BIN/
 .vscode/
 *.swp
 *.swo
+
+# Node (outils de conversion locaux)
+node_modules/
+package.json
+package-lock.json
+_convert-webp.mjs
