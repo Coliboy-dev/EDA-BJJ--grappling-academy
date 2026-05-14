@@ -1,0 +1,17 @@
+# Système Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Système macOS
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+
+# Dossier Claude Code (outils de développement locaux)
+.claude/
+
+# Éditeurs
+.vscode/
+*.swp
+*.swo
