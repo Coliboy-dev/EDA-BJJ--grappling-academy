@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow:
 
-Sitemap: https://eda-academy.netlify.app/sitemap.xml
+Sitemap: https://eda-bjj-grappling-academy.netlify.app/sitemap.xml
