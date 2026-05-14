@@ -367,7 +367,7 @@ button { background: none; border: none; cursor: pointer; font-family: inherit; 
 .schedule__watermark img { width: 280px; height: 280px; object-fit: cover; border-radius: 50%; filter: grayscale(1); }
 .schedule__content { position: relative; z-index: 3; }
 
-.schedule__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; max-width: 780px; margin: 0 auto; }
+.schedule__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; max-width: 1100px; margin: 0 auto; }
 .schedule__day { background-color: rgba(16,16,16,0.85); border: 1px solid var(--color-border); border-radius: 2px; overflow: hidden; backdrop-filter: blur(8px); }
 .schedule__day-header { background: linear-gradient(135deg, rgba(212,175,55,0.14) 0%, rgba(212,175,55,0.04) 100%); border-bottom: 1px solid var(--color-border); padding: 18px 28px; }
 .schedule__day-name { font-family: var(--font-display); font-size: 1.05rem; font-weight: 600; letter-spacing: 0.07em; color: var(--color-gold); }
@@ -588,7 +588,7 @@ button { background: none; border: none; cursor: pointer; font-family: inherit; 
 .footer__brand-text { display: flex; flex-direction: column; gap: 2px; text-align: left; }
 .footer__brand-name { font-family: var(--font-display); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; color: var(--color-ivory); }
 .footer__brand-sub { font-family: var(--font-body); font-size: 0.58rem; font-weight: 400; letter-spacing: 0.25em; color: var(--color-gold); text-transform: uppercase; }
-.footer__values { display: flex; align-items: center; gap: 12px; font-family: var(--font-body); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #6a6a6a; }
+.footer__values { display: flex; align-items: center; gap: 12px; font-family: var(--font-body); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #8a8a8a; }
 .footer__sep { color: var(--color-border-strong); }
 .footer__nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 28px; }
 .footer__nav-link { font-family: var(--font-body); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: #8a8a8a; transition: color var(--tr-fast); }
